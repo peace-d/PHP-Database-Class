@@ -5,3 +5,10 @@ Simply include the file, when initailzing the database object add your database 
 ```php
 $database = new Database(Host, Username, Password, Database);
 ```
+## Methods
+query()
+public function numrows()
+fieldCount()
+currentField()
+fetchrow()
+seek()
