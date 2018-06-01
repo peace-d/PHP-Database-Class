@@ -43,7 +43,7 @@ class Database{
     }
 }
 
-class ResultSet{
+class ResultSet {
 
     private $iNumRows;
     private $iFieldCount;
@@ -60,12 +60,12 @@ class ResultSet{
         return $this->rResultSet->num_rows;
     }
 
-    public function iFieldCount()
+    public function fieldCount()
     {
         return $this->rResultSet->field_count;
     }
 
-    public function iCurrentField()
+    public function currentField()
     {
         return $this->rResultSet->current_field;
     }
